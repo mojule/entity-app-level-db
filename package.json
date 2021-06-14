@@ -1,0 +1,32 @@
+{
+  "name": "@mojule/entity-app-level-db",
+  "version": "0.1.0",
+  "description": "Level db for entity-app",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@mojule/entity-app": "^0.3.8",
+    "@mojule/util": "^0.1.1",
+    "level": "^7.0.0",
+    "levelup": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/level": "^6.0.0",
+    "@types/levelup": "^4.3.1",
+    "@types/node": "^15.12.2"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojule/entity-app-level-db.git"
+  },
+  "keywords": [],
+  "author": "Nik Coughlin <nrkn.com@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mojule/entity-app-level-db/issues"
+  },
+  "homepage": "https://github.com/mojule/entity-app-level-db#readme"
+}
